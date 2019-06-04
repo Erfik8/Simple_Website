@@ -1,0 +1,92 @@
+@import "animacja_naglowek.css";
+
+
+header
+{
+	display: flex;
+	height: 50px;
+	background-color: inherit;
+	margin: 0px 5px 0px;
+	position: sticky;
+	top: 0px;
+}
+	div.znaczek
+	{
+		width: 6.5%;
+		height: 200%;
+		min-width: 20px;
+		min-height: 30px;
+		background-color: inherit;
+		margin-left: 1%;
+		margin-top: 15px;
+		
+	}
+	div.znaczek:hover img.dom
+	{
+		animation-name:menu;
+		animation-duration: 0.5s;
+		animation-fill-mode: forward;
+	}
+	div.menu
+	{
+		width: 90%;
+		height: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+		div.tematy
+		{
+			width: 100%;
+			height: 130px;
+			position: relative;
+			top: -115px;
+			border-bottom-width: 2px;
+			border-bottom-style: solid;
+			border-bottom-color: aqua;
+			display: flex;
+			justify-content: center;
+			flex-flow: row wrap;
+			background-color: white;
+		}
+			div.zwin
+			{
+				width: 50px;
+				height: 25px;
+				position: relative;
+				top: 12px;
+				display: flex;
+				justify-content: center;
+				align-items:center;
+			}
+			div.menu:hover img.guzik
+			{
+				animation-name:ikona;
+				animation-duration: 0s;
+				animation-fill-mode: forwards;
+			}
+			
+			div.menu:hover div.tematy
+			{
+				animation-name:rozwin;
+				animation-duration: 1s;
+				animation-fill-mode: forwards;
+			}
+	
+
+
+/*formatowanie obrazów i ikon */
+
+
+
+img.dom
+{
+	width: 90%;
+	height: 5vw;
+}
+img.guzik
+{
+	width:30px;
+	height: 30px;
+	rotation: 90deg;
+	position: relative;
+}

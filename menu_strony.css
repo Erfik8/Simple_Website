@@ -1,0 +1,218 @@
+@import "animacja_naglowek.css";
+
+main
+{
+  display: flex;
+}
+
+div.kontakt 
+{
+  width: 8%;
+  height: 400px;
+  position:fixed;
+  z-index: 2;
+  margin-top: 5vw;
+}
+div.kontakt:hover div.konto
+{
+	animation-name:kontakt;
+	animation-fill-mode: forwards;
+	animation-duration: 0.25s;
+}
+div.kontakt:hover h1.banner_kontakt
+{
+	animation-name: banner_kontakt;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+div.konto
+{
+	display: flex;
+	position: relative;
+	z-index: -2;
+	left: -40px;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section
+{
+  width: 89%;
+  height: 1000px;
+  margin-left:auto;
+  margin-right: 32px;
+  display: flex;
+  flex-flow:row wrap;
+  
+}
+/*baner kontaktu*/
+
+h1.banner_kontakt
+{
+	font-size: 5vw;
+	position: relative;
+	bottom: -27vw;
+	z-index: -3;
+	margin: 0px;
+	transform: rotate(-90deg);
+	color: #AAAAAA;
+	opacity:0.5;
+	letter-spacing: 2.5vw;
+	font-family: Sans-serif;
+	-webkit-user-select:none;
+	text-align:center;
+}
+
+aside
+{
+	padding-top: 40px;
+	width: 90%;
+	height: 800px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	box-shadow: 10px 10px 4px -4px #757575;
+	margin: 40px auto 40px auto;
+}
+footer
+{
+	width: 98%;
+	height: 80px;
+	background-image: linear-gradient(to bottom, white 100%, black 0%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom-width: 2px;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-bottom-color: aqua;
+	border-top-color: aqua;
+}
+footer:hover
+{
+	animation-name: przycisk;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+}
+footer:hover h6
+{
+	animation-name: napis;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+}
+
+
+
+/*obrazy i ikony*/
+.ikony
+{
+	width: 50px;
+	height: 50px;
+}
+img.programowanie
+{
+	width: 9.3vw;
+	height: 9.7vw;
+	position: relative;
+	float: right;
+	margin-right: 50px;
+	z-index: -1;
+}
+img.ksiazki
+{
+	width: 12.3vw;
+	height: 16.7vw;
+	position: relative;
+	margin-right: 30px;
+	margin-left: 30px;
+	z-index: -1;
+}
+/*text aside*/
+aside>p
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 1.52vw;
+	letter-spacing: 2px;
+	text-align: justify;
+	font-family: Times New Roman;
+	text-indent: 40px;
+}
+footer h6
+{
+	font-size: 2vw;
+	letter-spacing: 10px;
+	
+}
+aside>ul
+{
+	margin-left: 20px;
+	font-size: 1.52vw;
+	letter-spacing: 2px;
+	text-align: justify;
+	font-family: Times New Roman;
+	text-indent: 40px;
+}
+aside>ul>li
+{
+	text-indent: 10px;
+	list-style-type: none;
+	margin-bottom: 0.3vw;
+	margin-top: 0.3vw;
+}
+aside>ul>li:before
+{
+	content: "►";
+	color: aqua;
+	font-size: 1.52vw;
+	padding-right: 18px;
+}
+
+aside>ol
+{
+	margin-left: 20px;
+	font-size: 1.52vw;
+	letter-spacing: 2px;
+	text-align: justify;
+	font-family: Times New Roman;
+	text-indent: 40px;
+}
+aside>ol>li
+{
+	text-indent: 10px;
+	list-style-type: none;
+	margin-bottom: 0.3vw;
+	margin-top: 0.3vw;
+}
+.zielony
+{
+	color: green;
+	font-weight: 400;
+	font-style: italic;
+}
+.slowa_kluczowe
+{
+	color: blue;
+	font-weight: 900;
+}
+.znaki_standardowe
+{
+	color: green;
+	font-weight: 900;
+	display: inline;
+	text-indent: 0px;
+}
+.czerwone
+{
+	color: red;
+	font-weight: 900;
+	display: inline;
+	text-indent: 0px;
+}
+
+
+
+

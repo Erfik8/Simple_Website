@@ -1,0 +1,59 @@
+@keyframes rozwin
+{
+	to{top: -60px;}
+}
+
+@keyframes menu
+{
+	25%{transform: rotate(10deg);}
+	50%{transform: rotate(-20deg);}
+	75%{transform: rotate(20deg);}
+	100%{transform: rotate(-10deg);}
+}
+
+@keyframes ikona
+{
+	to{transform: rotateX(180deg);
+		top: -2px;}
+}
+
+@keyframes kontakt
+{
+	to {left: 40%;}
+}
+
+@keyframes banner_kontakt
+{
+	to{text-shadow: 0px 0px 15px black ;
+		opacity: 0.3;
+		color: none;}
+}
+
+@keyframes przycisk
+{
+	5%{background-image: linear-gradient(to bottom, white 100%, black 0%);}
+	10%{background-image: linear-gradient(to bottom, white 95%, black 10%);}
+	15%{background-image: linear-gradient(to bottom, white 90%, black 15%);}
+	20%{background-image: linear-gradient(to bottom, white 85%, black 20%);}
+	25%{background-image: linear-gradient(to bottom, white 80%, black 25%);}
+	30%{background-image: linear-gradient(to bottom, white 75%, black 30%);}
+	35%{background-image: linear-gradient(to bottom, white 70%, black 35%);}
+	40%{background-image: linear-gradient(to bottom, white 65%, black 40%);}
+	45%{background-image: linear-gradient(to bottom, white 60%, black 45%);}
+	50%{background-image: linear-gradient(to bottom, white 55%, black 50%);}
+	55%{background-image: linear-gradient(to bottom, white 50%, black 55%);}
+	60%{background-image: linear-gradient(to top, black 60%, white 45%);}
+	65%{background-image: linear-gradient(to top, black 65%, white 40%);}
+	70%{background-image: linear-gradient(to top, black 70%, white 35%);}
+	75%{background-image: linear-gradient(to top, black 75%, white 30%);}
+	80%{background-image: linear-gradient(to top, black 80%, white 25%);}
+	85%{background-image: linear-gradient(to top, black 85%, white 20%);}
+	90%{background-image: linear-gradient(to top, black 90%, white 15%);}
+	95%{background-image: linear-gradient(to top, black 95%, white 10%);}
+	100%{background-image: linear-gradient(to top, black 100%, white 0%);}
+}
+@keyframes napis
+{
+	from{color: black;}
+	to{color: white;}
+}
